@@ -1,0 +1,38 @@
+.search-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+}
+
+.search-area form {
+  display: flex;
+  align-items: center;
+}
+
+.search-area input[type="text"],
+.search-area button,
+.search-area select {
+  height: 35px; /* Set a consistent height */
+  padding: 5px 10px; /* Adjust padding */
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.search-area input[type="text"] {
+  flex-grow: 1;
+}
+
+.search-area button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 0 15px; /* Adjust side padding for better button look */
+}
+
+.search-area select {
+  padding: 5px;
+  border-radius: 3px;
+}
